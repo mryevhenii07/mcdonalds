@@ -1,0 +1,32 @@
+.wrapInfoWork{
+    width: 1170px;
+    margin: 90px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+    
+}
+
+.wrapInfo{
+    margin-top: -10px;
+    border-bottom:1px solid gray;
+    border-left:1px solid gray;
+    border-right:1px solid gray;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+}
+
+.infoWorkBtn{
+    margin-top: 10px;
+    background-color: gold;
+    padding:  15px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+}
+
+.infoWorkParagraph{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
