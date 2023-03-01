@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mcdonalds/static/css/main.fbda9369.css",
+    "main.js": "/mcdonalds/static/js/main.38099237.js",
+    "static/media/logo-header.png": "/mcdonalds/static/media/logo-header.f6bf141f5bfe714bc9df.png",
+    "index.html": "/mcdonalds/index.html",
+    "main.fbda9369.css.map": "/mcdonalds/static/css/main.fbda9369.css.map",
+    "main.38099237.js.map": "/mcdonalds/static/js/main.38099237.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbda9369.css",
+    "static/js/main.38099237.js"
+  ]
+}
