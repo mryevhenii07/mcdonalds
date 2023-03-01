@@ -3,6 +3,7 @@ import s from './Header.module.css';
 import logo from '../../image/logo-header.png';
 import {IoLocationSharp,IoSearchOutline} from 'react-icons/io5';
 import Buttons from './buttons/Buttons';
+import { Link } from 'react-router-dom';
 
 
 
@@ -11,7 +12,7 @@ import Buttons from './buttons/Buttons';
     <div className={s.header}>
         <div className={`${s.headerWrap} ${s.gridInit } ${s.grid } `}>
 
-            <div className={`${s.wrapLogo} ${s.boxInit } ${s.box } ${s.lLogo }`}>  <img src={logo} alt="Logo" width={70} height={60} /></div>
+            <Link to="/mcdonalds" className={`${s.wrapLogo} ${s.boxInit } ${s.box } ${s.lLogo }`}>  <img src={logo} alt="Logo" width={70} height={60} /></Link>
             <div className={` ${s.boxInit } ${s.box } ${s.lSection }`}>
                 <div>Відкриті ресторани</div>
                 <div className={s.wrapSearchLocation}>

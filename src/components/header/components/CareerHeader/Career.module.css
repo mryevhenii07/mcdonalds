@@ -1,0 +1,32 @@
+.career{
+    width: 1170px;
+    margin: 60px auto;
+}
+.career h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.career p {
+    margin-top: 15px;
+}
+
+.careerWrapInf{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+}
+
+.careerWrapInf button{
+    margin-top: 25px;
+}
+
+.careerBtn{
+    
+    background-color: gold;
+    padding:  15px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+}
