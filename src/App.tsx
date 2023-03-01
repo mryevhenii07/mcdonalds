@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './components/footer/Footer';
 
 import Header from './components/header/Header';
 import InfoWork from './components/infoWork/InfoWork';
@@ -15,6 +16,7 @@ function App() {
       <MainApplication/>
       <SafeInfo/>
       <InfoWork/>
+      <Footer/>
 
     </div>
   );

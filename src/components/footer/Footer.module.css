@@ -1,0 +1,84 @@
+.footer{
+    width: 1170px;
+    margin: 90px auto;
+    padding: 10px;
+}
+
+.footerContact{
+    display: grid;
+    grid-gap: 140px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    
+}
+
+.footerContact h3 {
+    margin-bottom: 15px;
+}
+.footerContact div{
+    margin-top: 5px;
+}
+.wrapFooterMessenger{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+height: 140px;
+border-bottom: 1px solid grey;
+padding: 0 20px;
+
+}
+
+.googleImg{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+.appleImg{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.wrapBtnIcons{
+    display: flex;
+    
+}
+.wrapBtnIcons button{
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border:1px solid gray;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.wrapFooterInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 120px;
+    
+}
+
+.wrapFooterInfoLeft{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapFooterInfoLeft > div{
+    margin-left: 35px;
+}
+
+.footerImg{
+    margin-left: 10px;
+    display: inline-block;
+}
