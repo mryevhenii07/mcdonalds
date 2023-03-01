@@ -9,9 +9,9 @@ const Buttons = () => {
 return (
 <>
         <button className={s.navButtons}>Меню <AiOutlineDown/></button>
-        <button className={s.navButtons}>McDelivery</button>
-        <button className={s.navButtons}>Мобільний додаток</button>
-        <button className={s.navButtons}>Стратегія впливу</button>
+        <Link to="delivery" className={s.navButtons}>McDelivery</Link>
+        <Link to="application" className={s.navButtons}>Мобільний додаток</Link>
+        <Link to="strategy" className={s.navButtons}>Стратегія впливу</Link>
         <Link to="quality" className={s.navButtons}>Якість та гігієна</Link>
         <Link to="career" className={s.navButtons} >Кар'єра</Link></>
 )

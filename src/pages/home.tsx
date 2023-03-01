@@ -5,7 +5,7 @@ import Main from '../components/main/Main';
 import MainApplication from '../components/mainApplication/MainAplication';
 import SafeInfo from '../components/safeInfo/SafeInfo';
 
-const home = () => {
+const Home = () => {
   return (
     <div>
         <Main/>
@@ -17,4 +17,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home
