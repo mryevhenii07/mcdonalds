@@ -2,6 +2,8 @@ import {FC} from 'react'
 import s from './Header.module.css';
 import logo from '../../image/logo-header.png';
 import {IoLocationSharp,IoSearchOutline} from 'react-icons/io5';
+import Buttons from './buttons/Buttons';
+
 
 
  const Header:FC = () => {
@@ -17,8 +19,9 @@ import {IoLocationSharp,IoSearchOutline} from 'react-icons/io5';
                     <button className={s.location}><IoLocationSharp className={s.locationIcon}/>Знайти нас</button>
                 </div>
             </div>
-            <nav className={` ${s.boxInit } ${s.box } ${s.lNav }`}>Lorem ips neque, quasi rerum modi autem excepturi?</nav>
-       
+            <nav className={` ${s.boxInit } ${s.box } ${s.lNav }`}>
+            <Buttons/>
+            </nav>
         </div>
     </div>
   )

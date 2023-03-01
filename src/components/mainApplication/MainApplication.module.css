@@ -1,0 +1,35 @@
+.mainApp{
+    margin: 90px auto;
+    width: 1170px;
+    display: flex;
+}
+
+.mainAppLeft{
+    max-width: 500px;
+    height: 380px;
+}
+
+.wrapAppRight{
+    padding: 20px;
+}
+
+.mainAppTitle{
+    font-size: 32px;
+}
+
+.wrapApplication{
+    display: flex;
+    margin-top: 25px;
+}
+
+.googleImg{
+    width: 120px;
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.appleImg{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}

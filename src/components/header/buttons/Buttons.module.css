@@ -1,0 +1,9 @@
+.navButtons{
+    background-color: white;
+    margin-left: 15px;
+    padding:5px  10px ;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border:none
+}

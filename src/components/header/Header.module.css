@@ -29,6 +29,7 @@
 
 .lNav {
     grid-area: my-nav;
+    padding-left: 25px;
 }
 
 .lLogo {
@@ -83,3 +84,4 @@ font-size: 18px;
     font-size: 20px;
     color: red;
 }
+
