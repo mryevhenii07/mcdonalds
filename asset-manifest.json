@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/mcdonalds/static/css/main.c576f789.css",
-    "main.js": "/mcdonalds/static/js/main.c57e6148.js",
+    "main.css": "/mcdonalds/static/css/main.f3b74d54.css",
+    "main.js": "/mcdonalds/static/js/main.35ae33e2.js",
     "static/media/main-app.png": "/mcdonalds/static/media/main-app.3cff8807a5a404b9e150.png",
     "static/media/main-1.png": "/mcdonalds/static/media/main-1.24c63b2283f21ee15dea.png",
+    "static/media/delivery-info.png": "/mcdonalds/static/media/delivery-info.f4ac991ed5e033a4b357.png",
     "static/media/logo-header.png": "/mcdonalds/static/media/logo-header.f6bf141f5bfe714bc9df.png",
+    "static/media/exclamation.jpg": "/mcdonalds/static/media/exclamation.ae8b16bd4c8511219813.jpg",
     "static/media/google-play.png": "/mcdonalds/static/media/google-play.8932bd7515ad3b3f8a64.png",
     "index.html": "/mcdonalds/index.html",
-    "main.c576f789.css.map": "/mcdonalds/static/css/main.c576f789.css.map",
-    "main.c57e6148.js.map": "/mcdonalds/static/js/main.c57e6148.js.map"
+    "main.f3b74d54.css.map": "/mcdonalds/static/css/main.f3b74d54.css.map",
+    "main.35ae33e2.js.map": "/mcdonalds/static/js/main.35ae33e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.c576f789.css",
-    "static/js/main.c57e6148.js"
+    "static/css/main.f3b74d54.css",
+    "static/js/main.35ae33e2.js"
   ]
 }
