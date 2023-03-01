@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './components/header/Header';
 import Main from './components/main/Main';
 import MainApplication from './components/mainApplication/MainAplication';
+import SafeInfo from './components/safeInfo/SafeInfo';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <Main/>
       <MainApplication/>
+      <SafeInfo/>
     </div>
   );
 }

@@ -1,0 +1,28 @@
+.wrapSafe{
+    width: 1170px;
+    margin: 90px auto;
+    display: flex;
+}
+.wrapRightBlock{ width: 570px;}
+.imgExclamation{
+    
+
+}
+
+.imgBlockLeft{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 410px;
+}
+
+.safeBtn{
+    margin-top: 10px;
+    background-color: gold;
+    padding:  15px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+}
