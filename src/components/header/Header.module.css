@@ -1,0 +1,85 @@
+.header{
+    
+    width: 100%;
+    height: 130px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    display: flex;
+    justify-content: center;
+}
+.headerWrap{
+    width: 1170px;
+    height: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+    "my-logo my-section "
+    "my-logo my-nav ";
+    grid-template-columns: 0fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: column;
+}
+
+.wrapLogo{
+    width: 108px;
+    height: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.lNav {
+    grid-area: my-nav;
+}
+
+.lLogo {
+    grid-area: my-logo;
+    width: 108px;
+}
+
+.lSection {
+    grid-area: my-section;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 40px;
+    font-size: 14px;
+}
+
+.wrapSearchLocation{
+    display: flex;
+}
+
+.search{
+    background-color: white;
+    margin-right: 20px;
+    padding:5px  10px ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border:none
+}
+
+.location{
+    background-color: white;
+    padding:5px  10px ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border:none ;
+    color:blue;
+    text-decoration:underline;
+}
+
+.searchIcon{
+margin-right: 3px;
+font-size: 18px;
+}
+
+.locationIcon{
+    margin-right: 3px;
+    font-size: 20px;
+    color: red;
+}
