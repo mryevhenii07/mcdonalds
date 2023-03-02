@@ -1,0 +1,58 @@
+.questionModel{
+    font-size: 40px;
+    width: 600px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.dialogQuestion{ 
+    height: 100px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cancel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 60px;
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    color:black;
+    cursor: pointer;
+}
+
+.confirm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 60px;
+    width: 180px;
+    background-color: gold;
+    color:black;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+.confirm:hover{ background-color: rgb(243, 208, 10);}
+.cancel:hover{background-color: whitesmoke;}
+.btnModal{
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.more{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}

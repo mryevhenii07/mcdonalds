@@ -1,0 +1,42 @@
+.menu{
+    width: 1170px;
+    padding: 20px;
+    margin: 60px auto;
+
+}
+.wrapMenu{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+
+.wrapImgName{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.wrapImgName > div{
+margin-left: 10px;
+}
+
+.wrapMenuBtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.wrapMenuBtn button{
+  
+        margin-top: 40px;
+        background-color: gold;
+        padding:  15px 20px;
+        font-size: 16px;
+        border-radius: 8px;
+        border:none;
+        cursor: pointer;
+  
+}
