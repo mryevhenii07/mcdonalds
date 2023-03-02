@@ -17,3 +17,8 @@ code {
   padding: 0;
   margin: 0;
 }
+h1{
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 30px;
+}

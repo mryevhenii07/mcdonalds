@@ -1,0 +1,31 @@
+.wrapStrategy p{
+margin-top: 20px;
+}
+
+.wrapStrategy ul {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+
+
+.wrapBlockInfo{
+    margin-top: 60px;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.wrapBlockInfo p {
+    margin:  20px 0 40px 0;
+}
+
+.strategyBtn{
+    
+    background-color: gold;
+    padding:  15px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+}
