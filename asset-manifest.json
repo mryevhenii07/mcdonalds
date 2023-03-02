@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/mcdonalds/static/css/main.b669f955.css",
-    "main.js": "/mcdonalds/static/js/main.d95bdae6.js",
+    "main.css": "/mcdonalds/static/css/main.3de92d04.css",
+    "main.js": "/mcdonalds/static/js/main.2534f66d.js",
+    "static/media/quality-right.png": "/mcdonalds/static/media/quality-right.7394f139f8a2c9177617.png",
+    "static/media/quality-left.png": "/mcdonalds/static/media/quality-left.c88a5eb371673cbbc1d1.png",
     "static/media/main-app.png": "/mcdonalds/static/media/main-app.3cff8807a5a404b9e150.png",
     "static/media/main-1.png": "/mcdonalds/static/media/main-1.24c63b2283f21ee15dea.png",
     "static/media/delivery-info.png": "/mcdonalds/static/media/delivery-info.f4ac991ed5e033a4b357.png",
     "static/media/work-info-3.png": "/mcdonalds/static/media/work-info-3.8d5e0218adbc8f027033.png",
     "static/media/work-info-1.png": "/mcdonalds/static/media/work-info-1.1241c0a775e51ae16ebc.png",
     "static/media/work-info-2.png": "/mcdonalds/static/media/work-info-2.4ecea1c173416ab6dfac.png",
+    "static/media/quality-main.png": "/mcdonalds/static/media/quality-main.5a421bcc7bcdbd4b4343.png",
     "static/media/career.jpg": "/mcdonalds/static/media/career.71b3955fdefb1bbb5e6d.jpg",
     "static/media/logo-header.png": "/mcdonalds/static/media/logo-header.f6bf141f5bfe714bc9df.png",
     "static/media/exclamation.jpg": "/mcdonalds/static/media/exclamation.ae8b16bd4c8511219813.jpg",
     "static/media/google-play.png": "/mcdonalds/static/media/google-play.8932bd7515ad3b3f8a64.png",
     "index.html": "/mcdonalds/index.html",
-    "main.b669f955.css.map": "/mcdonalds/static/css/main.b669f955.css.map",
-    "main.d95bdae6.js.map": "/mcdonalds/static/js/main.d95bdae6.js.map"
+    "main.3de92d04.css.map": "/mcdonalds/static/css/main.3de92d04.css.map",
+    "main.2534f66d.js.map": "/mcdonalds/static/js/main.2534f66d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b669f955.css",
-    "static/js/main.d95bdae6.js"
+    "static/css/main.3de92d04.css",
+    "static/js/main.2534f66d.js"
   ]
 }
