@@ -17,17 +17,18 @@
     margin-bottom: 30px;
 }
 
-.localWrap  input{
-    padding:0 10px;
+
+.localBlock{    padding:0 10px;
     margin-left: 20px;
     width: 320px;
     height: 50px;
     border-radius: 8px 0 0 8px;
     border: 2px solid gold;
     outline: none;
-
+    cursor: pointer;
 }
-.localWrap span {
+
+/* .localWrap span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -37,16 +38,17 @@
     border: 2px solid gold;
     background-color: gold;
     outline: none;
+    cursor: pointer;
     
-}
+} */
 
-.localWrapInput{
+/* .localWrapInput{
     display: flex;
     align-items: center;
     width: 385px;
     height: 50px;
     
-}
+} */
 
 
 .wrapInput input{

@@ -2,6 +2,7 @@ import React from 'react'
 import {AiOutlineCaretDown} from 'react-icons/ai';
 import mainImg from '../../../../image/openStore-main.png';
 import secondaryImg from '../../../../image/openStore-secondary.png';
+import SelectSmall from '../selectCountry/SelectCountry';
 import s from './OpenRestaurant.module.css';
 const OpenRestaurants = () => {
   return (
@@ -12,7 +13,8 @@ const OpenRestaurants = () => {
 У разі оголошення повітряної тривоги радимо пройти в безпечне місце.</h4>
 <div className={s.localWrap}>
   <div>Оберіть місто закладу</div>
-  <div className={s.localWrapInput}>  <input type="text" name="" id="" /> <span ><AiOutlineCaretDown size={25}/></span></div>
+  
+  <div className={s.localWrapInput}>   <SelectSmall /></div>
 
 </div>
 <div className={s.wrapInput}>
