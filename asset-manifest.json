@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mcdonalds/static/css/main.1a9609a7.css",
-    "main.js": "/mcdonalds/static/js/main.29954860.js",
+    "main.css": "/mcdonalds/static/css/main.215f53bc.css",
+    "main.js": "/mcdonalds/static/js/main.2ddef998.js",
     "static/media/strategy.png": "/mcdonalds/static/media/strategy.2c4aae8ada9fb2bb3166.png",
     "static/media/quality-right.png": "/mcdonalds/static/media/quality-right.7394f139f8a2c9177617.png",
     "static/media/quality-left.png": "/mcdonalds/static/media/quality-left.c88a5eb371673cbbc1d1.png",
@@ -34,11 +34,11 @@
     "static/media/menu-snack.png": "/mcdonalds/static/media/menu-snack.5bdfaf677555119071bc.png",
     "static/media/menu-chicken.png": "/mcdonalds/static/media/menu-chicken.bd77af9b25dd77d10428.png",
     "index.html": "/mcdonalds/index.html",
-    "main.1a9609a7.css.map": "/mcdonalds/static/css/main.1a9609a7.css.map",
-    "main.29954860.js.map": "/mcdonalds/static/js/main.29954860.js.map"
+    "main.215f53bc.css.map": "/mcdonalds/static/css/main.215f53bc.css.map",
+    "main.2ddef998.js.map": "/mcdonalds/static/js/main.2ddef998.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a9609a7.css",
-    "static/js/main.29954860.js"
+    "static/css/main.215f53bc.css",
+    "static/js/main.2ddef998.js"
   ]
 }
