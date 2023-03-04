@@ -11,46 +11,26 @@
     margin-bottom: 40px;
 }
 
-.localWrap{
+.wrapCity{
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    /* flex-direction: column;
+    margin-bottom: 30px; */
+    /* border: 2px solid gold; */
+
 }
 
 
 .localBlock{    padding:0 10px;
     margin-left: 20px;
     width: 320px;
-    height: 50px;
+    height: 40px;
     border-radius: 8px 0 0 8px;
     border: 2px solid gold;
     outline: none;
     cursor: pointer;
 }
-
-/* .localWrap span {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 0 8px 8px 0;
-    border: 2px solid gold;
-    background-color: gold;
-    outline: none;
-    cursor: pointer;
-    
-} */
-
-/* .localWrapInput{
-    display: flex;
-    align-items: center;
-    width: 385px;
-    height: 50px;
-    
-} */
-
-
+.wrapInput {margin-right: 25px;}
 .wrapInput input{
     margin-left: 25px;
 }

@@ -1,0 +1,19 @@
+
+.localWrap{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border: 1px solid gold;
+    cursor: pointer;
+}
+.listCity{
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 40px;
+}
