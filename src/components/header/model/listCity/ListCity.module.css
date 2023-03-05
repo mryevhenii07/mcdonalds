@@ -3,12 +3,8 @@
     width: 200px;
     height: 40px;
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     margin-bottom: 30px;
-    border: 1px solid gold;
+    border: 2px solid gold;
     cursor: pointer;
 }
 .listCity{
@@ -16,4 +12,11 @@
     position: absolute;
     left: 0;
     top: 40px;
+}
+.selectCity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
