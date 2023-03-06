@@ -2,7 +2,8 @@ import React from 'react'
 import {AiOutlineCaretDown} from 'react-icons/ai';
 import mainImg from '../../../../image/openStore-main.png';
 import secondaryImg from '../../../../image/openStore-secondary.png';
-import SelectCity from '../listCity/ListCity';
+import ListCity from '../listCity/ListCity';
+
 import s from './OpenRestaurant.module.css';
 const OpenRestaurants = () => {
   return (
@@ -18,7 +19,7 @@ const OpenRestaurants = () => {
   <input type="checkbox" name="" id="" /> <span>зараз відкриті</span>
   <input type="checkbox" name="" id="" /> <span>працює доставка</span>
 </div>
-<SelectCity />
+<ListCity />
 </div>
  
       </div>

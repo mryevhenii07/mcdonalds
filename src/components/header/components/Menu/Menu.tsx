@@ -14,8 +14,10 @@ import soysImg from '../../../../image/menu-soys.png';
 
 
 const Menu:FC = () => {
+    
    
   return (
+    <div className={s.wrap}>
     <div className={s.menu} >
         <div className={s.wrapMenu}>
             <div>
@@ -69,6 +71,7 @@ const Menu:FC = () => {
         <div className={s.wrapMenuBtn}><button>Переглянути повне меню</button></div>
         
     </div> 
+    </div>
   )
 }
 

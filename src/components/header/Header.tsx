@@ -7,14 +7,8 @@ import Modal from './model/Modal';
 import s from './Header.module.css';
 import logo from '../../image/logo-header.png';
 
-interface LocationState {
-    from: {
-      pathname: string;
-    };
-  }
 
-const Header:FC = (props) => {
-
+const Header:FC = () => {
 const {pathname} = useLocation()
 
 return (
@@ -28,8 +22,6 @@ return (
                 <button className={s.search}><IoSearchOutline className={s.searchIcon}/> Пошук</button>
                 <button className={s.location}><IoLocationSharp className={s.locationIcon}/>Знайти нас</button>
             </div>
-           
-           
         </div>
         <nav className={` ${s.boxInit } ${s.box } ${s.lNav }`}>
         <Buttons/>

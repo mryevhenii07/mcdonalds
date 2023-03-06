@@ -1,7 +1,18 @@
+.wrap{
+    position: relative; 
+    z-index: 999999; 
+  
+}
 .menu{
     width: 1170px;
     padding: 20px;
     margin: 60px auto;
+    position: absolute;
+    top: 0;
+    left: -124px;
+    background-color: white;
+   
+
 
 }
 .wrapMenu{
@@ -14,7 +25,7 @@
 .wrapImgName{
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     cursor: pointer;
 }
 
