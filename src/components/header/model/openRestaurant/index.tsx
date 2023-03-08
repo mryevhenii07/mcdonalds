@@ -1,11 +1,11 @@
-import React from 'react'
-import {AiOutlineCaretDown} from 'react-icons/ai';
+import React,{FC} from 'react'
+
 import mainImg from '../../../../image/openStore-main.png';
 import secondaryImg from '../../../../image/openStore-secondary.png';
 import ListCity from '../listCity/ListCity';
-
 import s from './OpenRestaurant.module.css';
-const OpenRestaurants = () => {
+
+const OpenRestaurants:FC = () => {
   return (
     <div>
       <img src={mainImg} alt="img" width={1130}/>

@@ -23,10 +23,8 @@ return (
         </div>
         {isOpen && <Menu />} 
         </>
-    
 )
 }
 
 export default Buttons
 
-export {}

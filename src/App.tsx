@@ -18,6 +18,7 @@ import Section from './components/section/section';
 import OpenRestaurant from './pages/openRestaurant';
 
 import FullCity from './pages/fullCity';
+import Burgers from './pages/menu/burgers';
 
 
 const App:FC = () =>{
@@ -40,6 +41,7 @@ const App:FC = () =>{
           <Route path={'/delivery'} element={<Delivery/> }/>
           <Route path={'/open'} element={<OpenRestaurant />}/>
           <Route path={'/open/:cityId'} element={<FullCity />}/>
+          <Route path={'/menu/burgers'} element={<Burgers />}/>
         </Routes>
       </Section>
       <Footer/>

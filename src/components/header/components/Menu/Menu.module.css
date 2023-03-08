@@ -1,8 +1,8 @@
 .wrap{
     position: relative; 
-    z-index: 999999; 
-  
+    z-index: 9; 
 }
+
 .menu{
     width: 1170px;
     padding: 20px;
@@ -11,15 +11,19 @@
     top: 0;
     left: -124px;
     background-color: white;
-   
-
-
+    transform: translateY(-150%);
+    animation: ani 0.7s forwards;
 }
+
+    @keyframes ani {
+    0% {transform: translateY(-150%);}
+    100% {transform: translateY(0);}
+    }
+
 .wrapMenu{
     display: grid;
     gap: 50px;
     grid-template-columns: 1fr 1fr 1fr;
-   
 }
 
 .wrapImgName{
@@ -41,7 +45,6 @@ margin-left: 10px;
 }
 
 .wrapMenuBtn button{
-  
         margin-top: 40px;
         background-color: gold;
         padding:  15px 20px;
@@ -49,5 +52,4 @@ margin-left: 10px;
         border-radius: 8px;
         border:none;
         cursor: pointer;
-  
 }

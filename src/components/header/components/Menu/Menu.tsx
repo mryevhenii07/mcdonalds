@@ -22,48 +22,48 @@ const Menu:FC = () => {
         <div className={s.wrapMenu}>
             <div>
                 <div className={s.wrapImgName}>
-                    <img src={rollImg} alt="img" width={60}/>
+                    <img src={rollImg} alt="img" width={64}/>
                     <div>Бургери та роли</div>
                 </div>
                 <div className={s.wrapImgName}>
-                    <img src={chickenImg} alt="img" width={60}/>
+                    <img src={chickenImg} alt="img" width={64}/>
                     <div>Курка</div>
                 </div>
                 <div className={s.wrapImgName}>
-                    <img src={snackImg} alt="img" width={60}/>
+                    <img src={snackImg} alt="img" width={64}/>
                     <div>Снеки</div>
                 </div>
                 <div className={s.wrapImgName}>
-                    <img src={potatoesImg} alt="img" width={60}/>
+                    <img src={potatoesImg} alt="img" width={64}/>
                     <div>Картопля</div>
                 </div>
                
             </div>
             <div>
             <div className={s.wrapImgName}>
-                    <img src={soysImg} alt="img" width={60}/>
+                    <img src={soysImg} alt="img" width={64}/>
                     <div>Соуси</div>
                 </div>
             <div className={s.wrapImgName}>
-                    <img src={disertImg} alt="img" width={60}/>
+                    <img src={disertImg} alt="img" width={64}/>
                     <div>Десерти</div>
                 </div>
             <div className={s.wrapImgName}>
-                    <img src={sodaImg} alt="img" width={60}/>
+                    <img src={sodaImg} alt="img" width={64}/>
                     <div>Напої</div>
                 </div>
             <div className={s.wrapImgName}>
-                    <img src={coffeImg} alt="img" width={60}/>
+                    <img src={coffeImg} alt="img" width={64}/>
                     <div>Кава</div>
                 </div>
             </div>
             <div>
             <div className={s.wrapImgName}>
-                    <img src={happyMImg} alt="img" width={60}/>
+                    <img src={happyMImg} alt="img" width={64}/>
                     <div>Хеппі Міл</div>
                 </div>
                 <div className={s.wrapImgName}>
-                    <img src={macMenuImg} alt="img" width={60}/>
+                    <img src={macMenuImg} alt="img" width={64}/>
                     <div>МакМеню</div>
                 </div>
             </div>

@@ -13,7 +13,7 @@ const {pathname} = useLocation()
 
 return (
     <>
-    {pathname !== '/open' && ( 
+    {pathname !== '/open'  && ( 
     <div className={s.header}>
     <div className={`${s.headerWrap} ${s.gridInit } ${s.grid } `}>
         <Link to="/mcdonalds" className={`${s.wrapLogo} ${s.boxInit } ${s.box } ${s.lLogo }`}>  <img src={logo} alt="Logo" width={70} height={60} /></Link>
