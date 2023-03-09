@@ -1,0 +1,25 @@
+.wrap{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+.leftBlock{
+    padding-top: 100px;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.btn{
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: gold;
+    padding:  15px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}

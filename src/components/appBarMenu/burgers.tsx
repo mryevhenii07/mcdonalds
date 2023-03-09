@@ -1,8 +1,8 @@
 import React from 'react'
-import s from '../../style/menu/burgers.module.css';
+// import s from '../../style/page/appBar.module.css';
 const Burgers = () => {
   return (
-    <div className={s.wrap}>B</div>
+<div>jjk</div>
   )
 }
 

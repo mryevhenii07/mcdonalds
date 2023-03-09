@@ -6,4 +6,5 @@ export interface IRestaurantAddress {
   open?: boolean;
   delivery?: boolean;
   generator?: boolean;
+  imgUrl?: string;
 }

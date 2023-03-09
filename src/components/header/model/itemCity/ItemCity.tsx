@@ -7,7 +7,7 @@ interface PropsItem extends IRestaurantAddress{
 
 const ItemCity:FC<PropsItem> = ({id,city,street,time,open,delivery,generator}) => {
   return (
-    <div className={s.city}>{city}</div>
+    <div className={s.city}>  {city}</div>
   )
 }
 

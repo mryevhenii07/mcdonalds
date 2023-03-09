@@ -1,4 +1,6 @@
 import { FC} from 'react'
+import { Link } from 'react-router-dom';
+
 import s from './Menu.module.css';
 import happyMImg from '../../../../image/happy-m.png';
 import macMenuImg from '../../../../image/mac-menu.png';
@@ -10,6 +12,7 @@ import rollImg from '../../../../image/menu-roll.png';
 import snackImg from '../../../../image/menu-snack.png';
 import sodaImg from '../../../../image/menu-soda.png';
 import soysImg from '../../../../image/menu-soys.png';
+
 
 
 
@@ -68,7 +71,7 @@ const Menu:FC = () => {
                 </div>
             </div>
         </div>
-        <div className={s.wrapMenuBtn}><button>Переглянути повне меню</button></div>
+        <div ><Link className={s.wrapMenuBtn} to='/menu'>Переглянути повне меню</Link></div>
         
     </div> 
     </div>

@@ -3,6 +3,7 @@ import axios from 'axios';
 import ItemCity from '../itemCity/ItemCity';
 import {IRestaurantAddress} from '../../../../interface/interface';
 import s from './ListCity.module.css';
+import { Link } from 'react-router-dom';
   const ListCity:FC = ()=> {
  const [cityRest,setCityRest]=useState([])
  const [isOpen,setIsOpen]=useState<boolean>(false)
@@ -22,7 +23,7 @@ console.log(cityRest);
 <div className={s.localWrapInput}> 
 
     {isOpen && <div className={s.listCity}>
-    {cityRest.map((res:any) =><ItemCity key={res.id} {...res}/>)}
+    {cityRest.map((res:any) =><Link to={`/open/${res.id}`} key={res.id}> <ItemCity  {...res}/></Link>)}
 </div>}
 
     </div>

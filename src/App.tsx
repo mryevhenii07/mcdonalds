@@ -14,23 +14,18 @@ import Strategy from './pages/strategy';
 import Application from './pages/application';
 import Delivery from './pages/delivery';
 import Section from './components/section/section';
-// import Menu from './components/header/components/Menu/Menu';
 import OpenRestaurant from './pages/openRestaurant';
 
 import FullCity from './pages/fullCity';
-import Burgers from './pages/menu/burgers';
+import Burgers from './components/appBarMenu/burgers';
+import AppBar from './pages/appBar';
+
 
 
 const App:FC = () =>{
-// const[isOpen,setIsOpen] =useState<boolean>(false)
-
-
   return (
     <div className="App">
       <Header/>
-      {/* {isOpen && <Menu />} */}
-    
-
       <Section >  
         <Routes >
           <Route path={'/mcdonalds'} element={<Home />}/>
@@ -41,7 +36,8 @@ const App:FC = () =>{
           <Route path={'/delivery'} element={<Delivery/> }/>
           <Route path={'/open'} element={<OpenRestaurant />}/>
           <Route path={'/open/:cityId'} element={<FullCity />}/>
-          <Route path={'/menu/burgers'} element={<Burgers />}/>
+          <Route path={'/menu'} element={<AppBar />}/>
+          {/* <Route path={'/menu/burgers'} element={<Burgers />}/> */}
         </Routes>
       </Section>
       <Footer/>
