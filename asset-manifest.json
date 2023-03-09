@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mcdonalds/static/css/main.8337dd7f.css",
-    "main.js": "/mcdonalds/static/js/main.08142ec0.js",
+    "main.css": "/mcdonalds/static/css/main.4183b79b.css",
+    "main.js": "/mcdonalds/static/js/main.50fb5c71.js",
     "static/media/strategy.png": "/mcdonalds/static/media/strategy.2c4aae8ada9fb2bb3166.png",
     "static/media/delivery-main.png": "/mcdonalds/static/media/delivery-main.11ecd1e48131e589dfc8.png",
     "static/media/quality-right.png": "/mcdonalds/static/media/quality-right.7394f139f8a2c9177617.png",
@@ -20,6 +20,7 @@
     "static/media/work-info-2.png": "/mcdonalds/static/media/work-info-2.4ecea1c173416ab6dfac.png",
     "static/media/quality-main.png": "/mcdonalds/static/media/quality-main.5a421bcc7bcdbd4b4343.png",
     "static/media/career.jpg": "/mcdonalds/static/media/career.71b3955fdefb1bbb5e6d.jpg",
+    "static/media/kiyv.jpg": "/mcdonalds/static/media/kiyv.568228579ba18a986101.jpg",
     "static/media/logo-header.png": "/mcdonalds/static/media/logo-header.f6bf141f5bfe714bc9df.png",
     "static/media/menu-roll.png": "/mcdonalds/static/media/menu-roll.9288ae09dc94cec4741f.png",
     "static/media/mac-menu.png": "/mcdonalds/static/media/mac-menu.9082341364294065a48f.png",
@@ -35,11 +36,11 @@
     "static/media/menu-snack.png": "/mcdonalds/static/media/menu-snack.5bdfaf677555119071bc.png",
     "static/media/menu-chicken.png": "/mcdonalds/static/media/menu-chicken.bd77af9b25dd77d10428.png",
     "index.html": "/mcdonalds/index.html",
-    "main.8337dd7f.css.map": "/mcdonalds/static/css/main.8337dd7f.css.map",
-    "main.08142ec0.js.map": "/mcdonalds/static/js/main.08142ec0.js.map"
+    "main.4183b79b.css.map": "/mcdonalds/static/css/main.4183b79b.css.map",
+    "main.50fb5c71.js.map": "/mcdonalds/static/js/main.50fb5c71.js.map"
   },
   "entrypoints": [
-    "static/css/main.8337dd7f.css",
-    "static/js/main.08142ec0.js"
+    "static/css/main.4183b79b.css",
+    "static/js/main.50fb5c71.js"
   ]
 }
