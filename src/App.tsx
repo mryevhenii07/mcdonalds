@@ -37,7 +37,7 @@ const App:FC = () =>{
           <Route path={'/open'} element={<OpenRestaurant />}/>
           <Route path={'/open/:cityId'} element={<FullCity />}/>
           <Route path={'/menu'} element={<AppBar />}/>
-          {/* <Route path={'/menu/burgers'} element={<Burgers />}/> */}
+         
         </Routes>
       </Section>
       <Footer/>
