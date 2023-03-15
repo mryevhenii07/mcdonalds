@@ -1,5 +1,5 @@
-import {FC,useState} from 'react';
-import { Routes,Route } from 'react-router-dom';
+import { FC, useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Footer from './components/footer/Footer';
 
 import Header from './components/header/Header';
@@ -22,28 +22,27 @@ import AppBar from './pages/appBar';
 
 
 
-const App:FC = () =>{
+const App: FC = () => {
   return (
     <div className="App">
-      <Header/>
-      <Section >  
+      <Header />
+      <Section >
         <Routes >
-          <Route path={'/mcdonalds'} element={<Home />}/>
-          <Route path={'/career'} element={<Career />}/>
-          <Route path={'/quality'} element={<Quality />}/>
-          <Route path={'/strategy'} element={<Strategy/> }/>
-          <Route path={'/application'} element={<Application/> }/>
-          <Route path={'/delivery'} element={<Delivery/> }/>
-          <Route path={'/open'} element={<OpenRestaurant />}/>
-          <Route path={'/open/:cityId'} element={<FullCity />}/>
-          <Route path={'/menu'} element={<AppBar />}/>
-         
+          <Route path={'/mcdonalds'} element={<Home />} />
+          <Route path={'/career'} element={<Career />} />
+          <Route path={'/quality'} element={<Quality />} />
+          <Route path={'/strategy'} element={<Strategy />} />
+          <Route path={'/application'} element={<Application />} />
+          <Route path={'/delivery'} element={<Delivery />} />
+          <Route path={'/open'} element={<OpenRestaurant />} />
+          <Route path={'/open/:cityId'} element={<FullCity />} />
+          <Route path={'/menu'} element={<AppBar />} />
         </Routes>
       </Section>
-      <Footer/>
-     
+      <Footer />
+
     </div>
   );
-}
+};
 
 export default App;
